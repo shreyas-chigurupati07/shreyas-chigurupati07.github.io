@@ -1,0 +1,94 @@
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 48px;
+  align-items: start;
+}
+
+.about__bio p {
+  color: var(--text-secondary);
+  font-size: 0.97rem;
+  line-height: 1.85;
+  margin-bottom: 20px;
+}
+
+.about__bio strong {
+  color: var(--text-primary);
+}
+
+.about__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.about__sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__card-title {
+  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 16px;
+}
+
+.about__facts {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about__facts li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--text-secondary);
+  font-size: 0.87rem;
+  line-height: 1.5;
+}
+
+.about__facts li span {
+  flex-shrink: 0;
+}
+
+.about__publication {
+  color: var(--text-secondary);
+  font-size: 0.87rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.about__certs {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.about__certs li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.about__cert-check {
+  color: #3fb950;
+  flex-shrink: 0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 860px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
+}

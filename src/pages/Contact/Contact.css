@@ -1,0 +1,74 @@
+.contact__inner {
+  max-width: 600px;
+}
+
+.contact__intro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact__open-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  background: rgba(63, 185, 80, 0.1);
+  border: 1px solid rgba(63, 185, 80, 0.25);
+  border-radius: 20px;
+  color: #3fb950;
+  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  width: fit-content;
+}
+
+.contact__dot {
+  width: 8px;
+  height: 8px;
+  background: #3fb950;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+.contact__text {
+  color: var(--text-secondary);
+  font-size: 0.97rem;
+  line-height: 1.8;
+}
+
+.contact__links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact__link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  padding: 16px 20px;
+}
+
+.contact__link:hover {
+  border-color: var(--accent-border);
+}
+
+.contact__link-icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+.contact__link-label {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 4px;
+}
+
+.contact__link-value {
+  font-size: 0.9rem;
+  color: var(--accent);
+}
