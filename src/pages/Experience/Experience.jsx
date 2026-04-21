@@ -3,14 +3,14 @@ import "./Experience.css";
 const experiences = [
   {
     company: "Microsoft",
-    role: "Image Processing Engineer",
+    role: "AI Engineer",
     period: "July 2025 – Present",
     location: "Redmond, WA",
     bullets: [
-      "Develops and automates camera image quality workflows for Microsoft Surface devices",
-      "Evaluates sharpness, noise, distortion, color fidelity, and 3A (AE, AF, AWB) parameters",
-      "Designs visualization tools to analyze and report imaging performance across devices",
-      "Performs intrinsic/extrinsic camera calibration using RealSense and ZED stereo cameras",
+      "Builds and automates camera image quality workflows for Microsoft Surface devices",
+      "Designs tooling for analyzing sharpness, noise, distortion, color fidelity, and 3A imaging behavior",
+      "Creates repeatable evaluation and visualization pipelines that reduce manual review effort",
+      "Works across imaging data, perception workflows, and software systems to improve product quality",
     ],
     tags: ["Python", "MATLAB", "OpenCV", "RealSense", "ZED", "AWS", "Docker"],
     current: true,
@@ -21,12 +21,12 @@ const experiences = [
     period: "Dec 2024 – June 2025 · 7 months",
     location: "Remote",
     bullets: [
-      "Engineered Quizify — a Google Cloud–powered NLP application for automated quiz generation from documents",
-      "Integrated VertexAI and textembedding-gecko model for advanced text embedding and content relevance",
-      "Used LangChain and ChromaDB for RAG-based content retrieval and efficient quiz scoring",
-      "Implemented PDF text extraction and processing pipeline for document-based quiz generation",
+      "Engineered Quizify, a document-to-quiz application powered by retrieval-augmented generation",
+      "Integrated Vertex AI embeddings, LangChain, and ChromaDB to improve content relevance and retrieval quality",
+      "Implemented document ingestion and preprocessing pipeline for PDF-based AI workflows",
+      "Built product-oriented AI functionality rather than standalone model demos",
     ],
-    tags: ["Python", "LangChain", "VertexAI", "ChromaDB", "Streamlit", "Pydantic"],
+    tags: ["Python", "LangChain", "Vertex AI", "ChromaDB", "Streamlit", "Pydantic"],
   },
   {
     company: "Reality AI Lab",
@@ -34,9 +34,9 @@ const experiences = [
     period: "July 2024 – Dec 2024 · 6 months",
     location: "Remote",
     bullets: [
-      "Built interactive web applications using Python and Streamlit for rapid AI prototyping",
-      "Employed Chroma collections for efficient text data storage and retrieval",
-      "Utilized JSON for structured data management ensuring seamless application operation",
+      "Built AI application prototypes with Python and Streamlit for rapid experimentation",
+      "Worked on retrieval and structured data workflows for user-facing AI features",
+      "Supported early-stage product development across document understanding and LLM-assisted flows",
     ],
     tags: ["Python", "Streamlit", "ChromaDB", "Google Cloud"],
   },
@@ -46,15 +46,13 @@ const experiences = [
     period: "Feb 2024 – May 2024 · 4 months",
     location: "Marathon, FL",
     bullets: [
-      "Built ROS2 navigation software in C++ and Python for path planning, motion planning, and obstacle avoidance",
-      "Integrated ZED stereo cameras, LiDAR, and GPS sensors for improved localization and obstacle detection",
-      "Implemented Extended Kalman Filter (EKF) sensor fusion with GPS, IMU, and visual odometry via Nav2 stack",
-      "Achieved 20% improvement in navigation accuracy via sensor fusion pipeline",
-      "Reduced computational overhead by 30% through optimized deep learning for real-time object detection",
-      "Improved path planning by 25% via real-time SLAM on NVIDIA Jetson embedded hardware",
+      "Built ROS2 navigation software in C++ and Python for path planning, obstacle avoidance, and localization",
+      "Integrated ZED stereo cameras, LiDAR, and GPS for improved perception and navigation accuracy",
+      "Implemented EKF sensor fusion with GPS, IMU, and visual odometry through the Nav2 stack",
+      "Improved navigation accuracy by 20% and reduced compute overhead by 30% in embedded workflows",
     ],
     tags: ["ROS2", "C++", "Python", "SLAM", "EKF", "ZED", "LiDAR", "NVIDIA Jetson"],
-    metrics: ["↑ 20% navigation accuracy", "↓ 30% compute overhead", "↑ 25% path planning"],
+    metrics: ["↑ 20% navigation accuracy", "↓ 30% compute overhead"],
   },
   {
     company: "Worcester Polytechnic Institute",
@@ -62,11 +60,10 @@ const experiences = [
     period: "July 2023 – May 2024 · 11 months",
     location: "Worcester, MA",
     bullets: [
-      "Designed cGAN framework (U-Net generator + discriminator) to enhance Intel RealSense depth images",
-      "Achieved PSNR improvement of 18% and SSIM improvement of 12% over raw inputs",
-      "Performed intrinsic and extrinsic camera calibration using checkerboard patterns",
-      "Integrated cGAN-enhanced images with GGCNN for robotic grasp detection on Franka Emika 7 DoF arm",
-      "Collaborated with firmware teams on I2C/SPI camera control systems and acquisition parameters",
+      "Designed a cGAN framework to enhance Intel RealSense depth images for robotics perception",
+      "Achieved PSNR improvement of 18% and SSIM improvement of 12% over raw depth inputs",
+      "Integrated enhanced outputs with grasp prediction workflows on robotic hardware",
+      "Combined model development, calibration, and systems integration across software and sensing pipelines",
     ],
     tags: ["PyTorch", "TensorFlow", "Keras", "OpenCV", "MATLAB", "ROS", "Python"],
     metrics: ["↑ PSNR 18%", "↑ SSIM 12%"],
@@ -77,24 +74,13 @@ const experiences = [
     period: "Aug 2021 – Dec 2022 · 1 yr 5 months",
     location: "Bengaluru, India",
     bullets: [
-      "Built image enhancement pipelines with OpenCV and PyTorch for sharpness, noise, and distortion correction",
-      "Reduced manual QA time by 40% through automated large-scale image quality testing with Python and MLflow",
-      "Processed petabyte-scale aerial imagery datasets using Apache Spark and Hadoop",
-      "Evaluated model quality using PSNR and SSIM metrics; maintained defect tracking documentation",
+      "Built image enhancement and quality analysis workflows for large-scale aerial imagery datasets",
+      "Reduced manual QA time by 40% through automation and repeatable testing pipelines",
+      "Worked with petabyte-scale image processing workloads and quantitative quality metrics",
+      "Developed strong foundations in applied CV, data quality, and operational ML workflows",
     ],
     tags: ["Python", "PyTorch", "OpenCV", "MLflow", "Apache Spark", "Hadoop", "Linux"],
     metrics: ["↓ 40% QA time"],
-  },
-  {
-    company: "TE Connectivity",
-    role: "Robotics & Automation Engineer Intern",
-    period: "May 2019 – Aug 2019 · 4 months",
-    location: "Bengaluru, India",
-    bullets: [
-      "Learnt PLC programming for collaborative robots used in manufacturing cables and connectors",
-      "Contributed to future project visions for manufacturing electronic connectors for automotive applications",
-    ],
-    tags: ["PLC", "Robotics", "Automation"],
   },
 ];
 
@@ -124,7 +110,7 @@ function Experience() {
     <section className="experience section">
       <div className="container">
         <h2 className="section-title">Experience</h2>
-        <p className="section-subtitle">4+ years across Microsoft, AI labs, and robotics startups.</p>
+        <p className="section-subtitle">Experience across Microsoft, AI labs, robotics, and production-minded ML systems.</p>
 
         <div className="timeline">
           {experiences.map((exp, i) => (

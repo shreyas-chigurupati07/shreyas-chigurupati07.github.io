@@ -44,7 +44,7 @@ function Header() {
             className="header__open-to-work"
           >
             <span className="header__dot" />
-            Open to Work
+            Open to AI Engineer roles
           </a>
         </nav>
 

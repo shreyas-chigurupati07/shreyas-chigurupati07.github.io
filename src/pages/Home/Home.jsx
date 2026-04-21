@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 
 const roles = [
-  "Image Processing Engineer @ Microsoft",
-  "Machine Learning Engineer",
-  "Robotics Software Engineer",
-  "Computer Vision Specialist",
-  "Seeking Full-Time Opportunities 🚀",
+  "AI Engineer @ Microsoft",
+  "Computer Vision Engineer",
+  "LLM and Multimodal Systems Builder",
+  "Production ML and API Developer",
+  "Open to Full-Time AI Engineer Roles",
 ];
 
 const highlights = [
   { icon: "🎓", label: "MSc Robotics Engineering", sub: "Worcester Polytechnic Institute · GPA 3.9" },
-  { icon: "💼", label: "Image Processing Engineer", sub: "Microsoft Surface · Redmond, WA" },
-  { icon: "🤖", label: "Computer Vision · ML · Robotics", sub: "4+ years experience" },
-  { icon: "📍", label: "Greater Seattle Area", sub: "Open to Relocation" },
+  { icon: "💼", label: "AI Engineer", sub: "Microsoft · Redmond, WA" },
+  { icon: "🧠", label: "CV · Multimodal · LLM Systems", sub: "Production-minded AI applications" },
+  { icon: "📍", label: "Greater Seattle Area", sub: "Open to relocation and full-time roles" },
 ];
 
 function Home() {
@@ -55,9 +55,10 @@ function Home() {
             <span className="home__cursor">|</span>
           </div>
           <p className="home__bio">
-            I build intelligent systems at the intersection of computer vision, deep learning,
-            and robotics. Currently at <span className="home__highlight">Microsoft Surface</span>,
-            automating camera image quality workflows — and always looking for the next hard problem to solve.
+            I build production-minded AI systems across <span className="home__highlight">computer vision</span>,
+            <span className="home__highlight"> multimodal workflows</span>, and
+            <span className="home__highlight"> LLM applications</span>. At Microsoft, I work on imaging quality
+            tooling and perception workflows, and I enjoy turning research ideas into robust software people can use.
           </p>
           <div className="home__cta">
             <Link to="/projects" className="btn btn-primary">View Projects</Link>
@@ -81,7 +82,7 @@ function Home() {
         <div className="home__stack">
           <p className="home__stack-label">Core Stack</p>
           <div className="home__tags">
-            {["Python", "PyTorch", "OpenCV", "ROS2", "React", "C++", "Docker", "AWS"].map(t => (
+            {["Python", "PyTorch", "OpenCV", "FastAPI", "LangChain", "ChromaDB", "Docker", "AWS"].map(t => (
               <span key={t} className="tag">{t}</span>
             ))}
           </div>

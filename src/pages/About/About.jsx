@@ -13,30 +13,30 @@ function About() {
     <section className="about section">
       <div className="container">
         <h2 className="section-title">About Me</h2>
-        <p className="section-subtitle">Engineer. Researcher. Builder of intelligent systems.</p>
+        <p className="section-subtitle">AI engineer focused on turning strong models into useful products.</p>
 
         <div className="about__grid">
           <div className="about__bio">
             <p>
-              I'm passionate about building intelligent systems that connect software, AI, and hardware
-              to solve real-world problems. Currently at <strong>Microsoft Surface</strong>, I develop and
-              automate camera image quality workflows — designing tools that analyze and visualize imaging
-              data to improve performance across devices.
+              I build intelligent systems that connect software, machine learning, and product thinking.
+              My background spans computer vision, imaging, robotics, and applied AI, with a strong interest
+              in production AI engineering where model quality, evaluation, and user experience all matter.
             </p>
             <p>
-              Before this, I worked on AI-driven solutions across research and industry: building
-              GAN-based image enhancement models at the <strong>Manipulation & Environmental Robotics Lab</strong>,
-              optimizing large-scale object detection systems at <strong>EagleView</strong>, and engineering
-              Quizify — a Google Cloud–powered NLP app — at <strong>Reality AI Lab</strong>.
+              At <strong>Microsoft</strong>, I work on camera and imaging quality workflows for Surface devices,
+              building tools and pipelines that improve analysis, repeatability, and developer efficiency.
+              Before that, I worked on retrieval-based AI applications, document understanding flows,
+              GAN-based image enhancement, and robotics perception systems across research and startup environments.
             </p>
             <p>
-              I hold a <strong>Master's in Robotics Engineering</strong> (ML & AI specialization) from
-              Worcester Polytechnic Institute (GPA 3.9), and I'm currently completing the
-              TripleTen Software Engineering Bootcamp to sharpen my full-stack development skills.
+              I hold a <strong>Master's in Robotics Engineering</strong> with an ML and AI specialization from
+              Worcester Polytechnic Institute (GPA 3.9). That foundation helped me develop depth in perception,
+              control, and modeling, while my recent work has pushed me toward LLM systems, multimodal AI,
+              APIs, and end-to-end application delivery.
             </p>
             <p>
-              Outside of work, I'm passionate about robotics projects, camera imaging science,
-              and exploring how AI can enhance everyday human interaction with devices.
+              I'm targeting full-time <strong>AI Engineer</strong> roles where I can contribute across model-backed
+              product development, backend systems, experimentation, and deployment.
             </p>
 
             <div className="about__links">
@@ -57,9 +57,9 @@ function About() {
               <h3 className="about__card-title">Quick Facts</h3>
               <ul className="about__facts">
                 <li><span>📍</span> Redmond, WA — Greater Seattle Area</li>
-                <li><span>💼</span> Image Processing Engineer @ Microsoft</li>
+                <li><span>💼</span> AI Engineer @ Microsoft</li>
                 <li><span>🎓</span> MSc Robotics Engineering, WPI (GPA 3.9)</li>
-                <li><span>🚀</span> Open to Full-Time Opportunities</li>
+                <li><span>🚀</span> Open to full-time AI Engineer roles</li>
                 <li><span>📧</span> shreyas.chigurupati07@gmail.com</li>
               </ul>
             </div>
