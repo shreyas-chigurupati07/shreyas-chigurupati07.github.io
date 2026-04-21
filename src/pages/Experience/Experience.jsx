@@ -3,16 +3,16 @@ import "./Experience.css";
 const experiences = [
   {
     company: "Microsoft",
-    role: "AI Engineer",
+    role: "Imaging Engineer",
     period: "July 2025 – Present",
     location: "Redmond, WA",
     bullets: [
-      "Builds and automates camera image quality workflows for Microsoft Surface devices",
-      "Designs tooling for analyzing sharpness, noise, distortion, color fidelity, and 3A imaging behavior",
-      "Creates repeatable evaluation and visualization pipelines that reduce manual review effort",
-      "Works across imaging data, perception workflows, and software systems to improve product quality",
+      "Works on camera image quality workflows for Microsoft Surface devices",
+      "Builds tooling for analyzing sharpness, noise, distortion, color fidelity, and 3A imaging behavior",
+      "Created a CLIP-based scene detection tool for subjective evaluation workflows",
+      "Supports repeatable evaluation and automation across imaging and perception pipelines",
     ],
-    tags: ["Python", "MATLAB", "OpenCV", "RealSense", "ZED", "AWS", "Docker"],
+    tags: ["Python", "OpenCV", "CLIP", "RealSense", "ZED", "AWS", "Docker"],
     current: true,
   },
   {

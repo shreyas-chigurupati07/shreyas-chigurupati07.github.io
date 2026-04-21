@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 
 const roles = [
-  "AI Engineer @ Microsoft",
-  "Computer Vision Engineer",
-  "LLM and Multimodal Systems Builder",
+  "Imaging Engineer @ Microsoft",
+  "Computer Vision and AI Tools Builder",
+  "LLM and Multimodal Systems Explorer",
   "Production ML and API Developer",
   "Open to Full-Time AI Engineer Roles",
 ];
 
 const highlights = [
   { icon: "🎓", label: "MSc Robotics Engineering", sub: "Worcester Polytechnic Institute · GPA 3.9" },
-  { icon: "💼", label: "AI Engineer", sub: "Microsoft · Redmond, WA" },
-  { icon: "🧠", label: "CV · Multimodal · LLM Systems", sub: "Production-minded AI applications" },
+  { icon: "💼", label: "Imaging Engineer", sub: "Microsoft · Redmond, WA" },
+  { icon: "🧠", label: "CV · Multimodal · LLM Systems", sub: "Built CLIP-based scene detection tooling" },
   { icon: "📍", label: "Greater Seattle Area", sub: "Open to relocation and full-time roles" },
 ];
 
@@ -55,10 +55,9 @@ function Home() {
             <span className="home__cursor">|</span>
           </div>
           <p className="home__bio">
-            I build production-minded AI systems across <span className="home__highlight">computer vision</span>,
-            <span className="home__highlight"> multimodal workflows</span>, and
-            <span className="home__highlight"> LLM applications</span>. At Microsoft, I work on imaging quality
-            tooling and perception workflows, and I enjoy turning research ideas into robust software people can use.
+            I work across <span className="home__highlight">imaging workflows</span>,
+            <span className="home__highlight"> computer vision</span>, and
+            <span className="home__highlight"> AI tooling</span>. At Microsoft, I support camera image quality workflows and built a CLIP-based scene detection tool for subjective evaluation pipelines, while continuing to grow toward production AI engineering roles.
           </p>
           <div className="home__cta">
             <Link to="/projects" className="btn btn-primary">View Projects</Link>
